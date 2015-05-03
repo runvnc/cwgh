@@ -72,13 +72,17 @@ var app = {
           //document.body.appendChild(div); 
           //div.innerHTML = res;
         //});
-        alert('g0');
         var proj = document.getElementById('run').value;
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = 'https://raw.githubusercontent.com/'+proj+'/master/main.js?zz='+(new Date()).getTime();
-        document.getElementsByTagName('head')[0].appendChild(script);
-        alert('ok2');       
+
+        var url = 'https://api.github.com/repos/' +
+                  proj +'/git/refs/heads/master';
+        req(url, function(res) { 
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = 'https://cdn.rawgit.com/'+proj+'/'+res.object.sha+'/main.js';
+          document.getElementsByTagName('head')[0].appendChild(script);
+          alert('ok2');
+        });
     },//
     onReset: function() {
         location.reload();
