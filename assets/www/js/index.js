@@ -23,7 +23,8 @@ function req(url, done) {
 var app = {
     // Application Constructor
     initialize: function() {
-        this.bindEvents();
+      alert('hry there');
+      this.bindEvents();
     },
     // Bind Event Listeners
     //
@@ -50,6 +51,7 @@ var app = {
     },
 
     onDeviceReady: function() {
+      alert('dev ready');
       app.receivedEvent('deviceready');
       try { 
         //app.initApp();
@@ -70,13 +72,13 @@ var app = {
           //document.body.appendChild(div); 
           //div.innerHTML = res;
         //});
-        
+        alert('g0');
         var proj = document.getElementById('run').value;
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.src = 'https://raw.githubusercontent.com/'+proj+'/master/main.js?zz='+(new Date()).getTime();
         document.getElementsByTagName('head')[0].appendChild(script);
-        
+        alert('ok2');       
     },//
     onReset: function() {
         location.reload();

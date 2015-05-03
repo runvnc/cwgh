@@ -27,11 +27,15 @@
                 <span class="event listening"></span>
                 <span class="event received"></span>
                 <input type="text" id="run"/>
-                <button onclick="onGo()">Add/Run</button>
-                <button onclick="onReset()">Reload</button>
+                <button onclick="app.onGo()">Add/Run</button>
+                <button onclick="app.onReset()">Reload</button>
               </div>
           </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+          alert('hi');
+          app.initialize();
+        </script>
     </body>
 </html>

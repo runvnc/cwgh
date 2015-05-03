@@ -1,0 +1,7 @@
+{
+  "name": "app name",
+  "start_url": "index.html",
+  "xwalk_hosts": [
+    "*"
+  ]
+}

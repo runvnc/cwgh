@@ -30,6 +30,8 @@
 /home/runvnc/code2/cwgh/bin/classes/org/apache/cordova/R$menu.class \
 /home/runvnc/code2/cwgh/bin/classes/org/apache/cordova/R$id.class \
 /home/runvnc/code2/cwgh/bin/classes/org/apache/cordova/R$raw.class \
+/home/runvnc/code2/cwgh/bin/classes/org/apache/cordova/batterystatus/BatteryListener$1.class \
+/home/runvnc/code2/cwgh/bin/classes/org/apache/cordova/batterystatus/BatteryListener.class \
 /home/runvnc/code2/cwgh/bin/classes/org/apache/cordova/R$attr.class \
 /home/runvnc/code2/cwgh/bin/classes/org/apache/cordova/R.class \
 /home/runvnc/code2/cwgh/bin/classes/org/apache/cordova/R$array.class \
