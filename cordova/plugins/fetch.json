@@ -153,5 +153,35 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "org.apache.cordova.media": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-media.git",
+            "subdir": ".",
+            "ref": "r0.2.6"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.vibration": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-vibration.git",
+            "subdir": ".",
+            "ref": "r0.3.5"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.splashscreen": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-splashscreen.git",
+            "subdir": ".",
+            "ref": "r0.2.5"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

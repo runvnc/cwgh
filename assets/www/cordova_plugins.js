@@ -388,6 +388,34 @@ module.exports = [
         "clobbers": [
             "window.open"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.media/www/MediaError.js",
+        "id": "org.apache.cordova.media.MediaError",
+        "clobbers": [
+            "window.MediaError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.media/www/Media.js",
+        "id": "org.apache.cordova.media.Media",
+        "clobbers": [
+            "window.Media"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.vibration/www/vibration.js",
+        "id": "org.apache.cordova.vibration.notification",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
+        "id": "org.apache.cordova.splashscreen.SplashScreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -407,6 +435,9 @@ module.exports.metadata =
     "org.apache.cordova.geolocation": "0.3.4",
     "org.apache.cordova.globalization": "0.2.4",
     "org.apache.cordova.inappbrowser": "0.2.4",
+    "org.apache.cordova.media": "0.2.6",
+    "org.apache.cordova.vibration": "0.3.5",
+    "org.apache.cordova.splashscreen": "0.2.5",
     "com.google.playservices": "19.0.0",
     "com.google.admobsdk": "6.12.2"
 }
