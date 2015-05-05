@@ -1,4 +1,7 @@
-# view AndroidManifest.xml #generated:37
+# view AndroidManifest.xml #generated:15
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:8
 -keep class com.jlivesay.cwgh.cwgh { <init>(...); }
 
 # view res/layout/color_picker_dialog_content.xml #generated:15

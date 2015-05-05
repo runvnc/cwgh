@@ -3,6 +3,7 @@
 /home/runvnc/code2/cwgh/bin/classes/com/jlivesay/cwgh/R$menu.class \
 /home/runvnc/code2/cwgh/bin/classes/com/jlivesay/cwgh/R$id.class \
 /home/runvnc/code2/cwgh/bin/classes/com/jlivesay/cwgh/R$raw.class \
+/home/runvnc/code2/cwgh/bin/classes/com/jlivesay/cwgh/R$integer.class \
 /home/runvnc/code2/cwgh/bin/classes/com/jlivesay/cwgh/R$attr.class \
 /home/runvnc/code2/cwgh/bin/classes/com/jlivesay/cwgh/cwgh.class \
 /home/runvnc/code2/cwgh/bin/classes/com/jlivesay/cwgh/BuildConfig.class \
@@ -14,6 +15,17 @@
 /home/runvnc/code2/cwgh/bin/classes/com/jlivesay/cwgh/R$string.class \
 /home/runvnc/code2/cwgh/bin/classes/com/jlivesay/cwgh/R$color.class \
 /home/runvnc/code2/cwgh/bin/classes/com/jlivesay/cwgh/R$dimen.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob$1.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob$BannerListener.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob$2.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob$InterstitialListener.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob$5.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob$7.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob$BasicListener.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob$6.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob$3.class \
+/home/runvnc/code2/cwgh/bin/classes/com/rjfun/cordova/plugin/AdMob$4.class \
 /home/runvnc/code2/cwgh/bin/classes/org/xwalk/core/R$style.class \
 /home/runvnc/code2/cwgh/bin/classes/org/xwalk/core/R$menu.class \
 /home/runvnc/code2/cwgh/bin/classes/org/xwalk/core/R$id.class \
@@ -42,5 +54,6 @@
 /home/runvnc/code2/cwgh/bin/classes/org/apache/cordova/R$dimen.class \
 /home/runvnc/code2/cwgh/bin/dexedLibs/classes-ef2dbcf41d4015970f481ba5d691c2c9.jar \
 /home/runvnc/code2/cwgh/bin/dexedLibs/classes-fedbfc9bb8c376a88c1b5cf781ca23fc.jar \
+/home/runvnc/code2/cwgh/bin/dexedLibs/google-play-services-19f724821fad78bce8db163b311f0428.jar \
 /home/runvnc/code2/cwgh/bin/dexedLibs/xwalk_core_library_java_app_part-436522f821f352e1fbe9972672281203.jar \
 /home/runvnc/code2/cwgh/bin/dexedLibs/xwalk_core_library_java_library_part-19010ae04ae03bb8afca81ae43339636.jar \

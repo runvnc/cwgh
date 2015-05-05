@@ -222,6 +222,7 @@
 /home/runvnc/code2/cwgh/res/drawable/icon.png \
 /home/runvnc/code2/cwgh/res/drawable-land-ldpi/screen.png \
 /home/runvnc/code2/cwgh/res/values/strings.xml \
+/home/runvnc/code2/cwgh/res/values/version.xml \
 /home/runvnc/code2/cwgh/res/drawable-land-xhdpi/screen.png \
 /home/runvnc/code2/cwgh/res/drawable-xhdpi/icon.png \
 /home/runvnc/code2/cwgh/res/drawable-land-hdpi/screen.png \
@@ -260,7 +261,10 @@
 /home/runvnc/code2/cwgh/assets/www/img/logo.png \
 /home/runvnc/code2/cwgh/assets/www/img/cordova.png \
 /home/runvnc/code2/cwgh/assets/www/js/index.js \
+/home/runvnc/code2/cwgh/assets/www/plugins/com.rjfun.cordova.plugin.admob \
 /home/runvnc/code2/cwgh/assets/www/plugins/org.apache.cordova.battery-status \
+/home/runvnc/code2/cwgh/assets/www/plugins/com.rjfun.cordova.plugin.admob/www \
+/home/runvnc/code2/cwgh/assets/www/plugins/com.rjfun.cordova.plugin.admob/www/AdMob.js \
 /home/runvnc/code2/cwgh/assets/www/plugins/org.apache.cordova.battery-status/www \
 /home/runvnc/code2/cwgh/assets/www/plugins/org.apache.cordova.battery-status/www/battery.js \
 /home/runvnc/code2/cwgh/assets/www/css/index.css \

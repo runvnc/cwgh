@@ -23,7 +23,6 @@ function req(url, done) {
 var app = {
     // Application Constructor
     initialize: function() {
-      alert('hry there');
       this.bindEvents();
     },
     // Bind Event Listeners
@@ -51,10 +50,9 @@ var app = {
     },
 
     onDeviceReady: function() {
-      alert('dev ready');
       app.receivedEvent('deviceready');
       try { 
-        //app.initApp();
+        app.initApp();
       } catch (e) {
         alert(e.message);
       }
@@ -77,6 +75,7 @@ var app = {
         var url = 'https://api.github.com/repos/' +
                   proj +'/git/refs/heads/master';
         req(url, function(res) { 
+          res = JSON.parse(res);
           var script = document.createElement('script');
           script.type = 'text/javascript';
           script.src = 'https://cdn.rawgit.com/'+proj+'/'+res.object.sha+'/main.js';
