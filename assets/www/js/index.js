@@ -59,17 +59,6 @@ var app = {
     },
 
     onGo: function() {
-        //var div = document.createElement('div');
-        //var proj = document.getElementById('run').value;
-
-        //var url = 'http://htmlpreview.github.io?https://raw.github.com/'+
-            //proj+'/master/main.html?zz='+(new Date()).getTime();
-        //req(url, function(res) {
-          //var frm = document.getElementById('frm');
-          //frm.src = url;
-          //document.body.appendChild(div); 
-          //div.innerHTML = res;
-        //});
         var proj = document.getElementById('run').value;
 
         var url = 'https://api.github.com/repos/' +
@@ -80,7 +69,6 @@ var app = {
           script.type = 'text/javascript';
           script.src = 'https://cdn.rawgit.com/'+proj+'/'+res.object.sha+'/main.js';
           document.getElementsByTagName('head')[0].appendChild(script);
-          alert('ok2');
         });
     },//
     onReset: function() {
